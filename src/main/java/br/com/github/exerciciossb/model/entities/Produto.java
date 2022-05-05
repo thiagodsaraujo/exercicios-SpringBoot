@@ -2,13 +2,11 @@ package br.com.github.exerciciossb.model.entities;
 
 import com.sun.istack.NotNull;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
+import java.beans.Transient;
 
 @Entity(name = "tbl_produto")
 public class Produto {

@@ -9,7 +9,7 @@ public class ClienteController {
 
     @GetMapping(path = "/qualquer")
     public Cliente obterCliente(){
-        return new Cliente(29, "Pedro","123.456.789-00");
+        return new Cliente(1, "Pedro","123.456.789-00");
     }
 
     @GetMapping("/{id}") //joga o valor do browser para o id
